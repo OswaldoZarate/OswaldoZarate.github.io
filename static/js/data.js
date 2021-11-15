@@ -475,7 +475,7 @@ data = [
         "Recipe_Name": "Peske (P'esque)",
         "Link": "https://www.recetas.com.bo/content/peske",
         "Summary": "El Peske o P'esque es un plato muy nutritivo a base de quinua (quinoa) propio de la gastronomía boliviana.  La puedes encontrar como parte de la gastronomía tradicional paceña.",
-        "Ingredients": "['1 taza de quinua',' 3 tazas de agua ','1 cucharada de mantequilla ','1 huevo',' 1/2 taza de queso rallado',' Leche lo necesario ','Sal al gusto']",
+        "Ingredients": "[ '1 taza de quinua', '3 tazas de agua', '1 cucharada de mantequilla', '1 huevo', '1/2 taza de queso rallado', 'Leche lo necesario', 'Sal al gusto' ]",
         "Instructions": "['Ponga a cocer una o más tazas de quinua debidamente lavada, con tres tazas de agua por cada taza de quinua. Cuando esté cocida bata mucho con un cucharón de madera. Agregue sal a gusto, una cucharada de mantequilla, un huevo y agregue leche la que precise. Servir con el queso rallado por encima.']",
         "Image": "https://www.recetas.com.bo/sites/default/files/2018-02/pesque.jpg"
     },
@@ -483,7 +483,7 @@ data = [
         "Recipe_Name": "Picana de navidad",
         "Link": "https://www.recetas.com.bo/content/picana-de-navidad",
         "Summary": "Esta receta de Picana de Navidad, es tradicional boliviana e ideal para cocinarla en las fiestas de cada fín de año.",
-        "Ingredients": "['1 pollo de dos kilos',' 1 kilo de pecho de vaca',' 1 espalda de cordero',' 1/2 libra de tunta remojada',' 4 papas grandes',' 3 zanahorias ','1 nabo',' 2 ramas de perejil y apio',' 3 hojas de laurel',' 4 ajíes verdes',' 1 cebolla',' 1 copa de vino ','1 copa de cerveza ','1/2 cucharilla de pimienta blanca entera ','2 cucharas de pimentón colorado entero',' 1/2 cucharilla de orégano desmenuzado ','Sal al gusto']",
+        "Ingredients": "[ '1 pollo de dos kilos', '1 kilo de pecho de vaca', '1 espalda de cordero', '1/2 libra de tunta remojada', '4 papas grandes', '3 zanahorias', '1 nabo', '2 ramas de perejil y apio', '3 hojas de laurel', '4 ajíes verdes', '1 cebolla', '1 copa de vino', '1 copa de cerveza', '1/2 cucharilla de pimienta blanca entera', '2 cucharas de pimentón colorado entero', '1/2 cucharilla de orégano desmenuzado', 'Sal al gusto' ]",
         "Instructions": "['El pecho de vaca debe cocer en agua con sal en una olla a presión durante una hora. Cuando la carne de res esté blanda se deben añadir los trozos de cordero y pollo. Al mismo tiempo se debe aliñar con el ají verde pasado por brasa; la zanahoria, el nabo y la cebolla. Todo se debe condimentar con pimienta, laurel, perejil, apio entero, pimentón colorado y sal al gusto. Cuando las carnes estén a medio cocer, añadir las papas enteras y terminar su cocimiento. En otra olla con agua se deben hacer cocer los choclos con anís y azúcar, si desea que éstos sean dulces. La tunta se debe remojar en agua tibia para suavizar su pulpa, luego se debe pelar y lavar bien. Tiene que ser cortada un poco por la mitad para rellenarla con una tajada de queso y luego se debe poner en una coladera para hacer cocer a vapor en una olla con agua caliente. Una vez cocidas las papas y carnes se añade el vino, la cerveza. Se espolvorea el orégano y se deja dar un hervor. En un plato hondo se sirven las presas adornando con las verduras, dos papas y el caldo. La tunta y el choclo se sirven en forma separada sobre una fuente. Se acompaña con llajwa si gusta.']",
         "Image": "https://www.recetas.com.bo/sites/default/files/2018-02/picanadenavidad.jpg"
     },
