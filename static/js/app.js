@@ -36,7 +36,7 @@ function buildTable(data) {
         else if (i === 4) {
             var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
             var instructions = strip.split("', '");
-            var res = instructions.join(" <br> ");
+            var res = instructions.join(" <br><br> ");
         }
     }
 
