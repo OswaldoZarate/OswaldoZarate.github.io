@@ -33,14 +33,11 @@
 <meta itemprop="image" content="{% unless page.layout == 'post' %}{{site.site-image}}{% else %}{{page.post-image}}{% endunless %}">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google-analytics}}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-213669584-2"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', '{{site.google-analytics}}');
+  gtag('config', 'UA-213669584-2');
 </script>
