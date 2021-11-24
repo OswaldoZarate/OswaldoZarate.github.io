@@ -5,7 +5,8 @@
         <div class="navbar-brand">
             <a class="navbar-item"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
+                <img src="/assets/images/osveloper-en-negro.gif"width="38" height="38" />
+                <strong>OsVeloper</strong>
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
                 <span></span>
@@ -23,12 +24,18 @@
             <div class="navbar-end">
                 <a class="navbar-item {% if page.layout == 'default' %}is-active{% endif %}"
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">ABOUT</a>
-                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">SOBRE MI</a>
+                <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACTO</a>
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
-                <a class="navbar-item {% if page.layout == 'index2' %}is-active{% endif %}"
-                    href="{{site.url}}{{site.baseurl}}/index2">MAGI RECETA app</a>
+                
+                <a class="navbar-item {% if page.layout == 'project' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/project">PROYECTOS</a>
+                <a class="navbar-item {% if page.layout == 'formacion' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/formacion">Formación</a>
+
+                <!--<a class="navbar-item {% if page.layout == 'index2' %}is-active{% endif %}"
+                    href="{{site.url}}{{site.baseurl}}/index2">MAGI RECETA app</a> -->
                 {% include dropdown.html %}
             </div>
 

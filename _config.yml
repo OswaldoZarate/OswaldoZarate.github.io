@@ -1,19 +1,19 @@
 markdown: kramdown
 url: ''
 baseurl: null
-title: Oswaldo Zárate
+title: Oswaldo L. Zárate
 description: Bienvenido a mi website personal!
 site-image: /WhatATheme/assets/images/meta.jpg
 site-keywords: 'Site, Template, Theme'
-favicon-url: null
+favicon-url: 
 heroimage: >-
   https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username: thedevslot
+email: olzarate251@gmail.com
+facebook_username: osvaldo.zarate.77
+twitter_username: walozarate
+instagram_username: /
+linkedin_username: ozarate
+github_username: walozarate
 youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
 reddit_username: /
 behance_username: /
@@ -21,16 +21,20 @@ dribbble_username: /
 spotify_username: /
 google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
-author-name: TheDevsLot
+author-name: OsVeloper
 author-image: >-
-  https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+  https://github.com/OswaldoZarate.png
 author-about: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
-  pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus
-  metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit.
-  Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque
-  sit amet sodales.
-author-url: 'https://github.com/thedevslot'
+  Mi nombre es Oswaldo y soy profesional independiente en modelado con Machine Learning,
+  Deep Learningy Visión por computadora, además de otras habilidades.
+  Mi objetivo es formar parte de un equipo de trabajo donde pueda contribuir y demostrar
+  el conocimiento y las habilidades que poseo.
+  Te invito cordialmente a revisar mi Portafolio de Proyectos, donde almaceno 
+  aplicaciones que desarrollo; así mismo mi Blog, que contiene noticias y tutoriales; 
+  también revise el Panel Curriculum Vitae, que contiene certificaciones obtenidas y 
+  habilidades que poseo.
+  Muchas Gracias por su visita !!! puede contactarme en mis redes sociales.
+author-url: 'https://github.com/walozarate'
 sass:
   sass_dir: _sass
   style: compressed

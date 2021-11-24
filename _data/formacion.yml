@@ -1,0 +1,79 @@
+- name: IBM AI Engineering Professional Certificate
+  image: https://images.credly.com/size/340x340/images/5d33407f-063c-41e1-ab97-79603bd33095/Professional_Certificate_-_AI_Engineering.png
+  link: https://www.credly.com/badges/946bed48-5835-46f3-b32c-fa6bd3d98fe0/public_url
+  description: El ganador de la insignia ha demostrado competencia en Machine Learning (ML), Deep Learning (DL), y Vision por Computadora. El perceptor comprende varias técnicas de aprendizaje automático como regresión, clasificación, agrupamiento y sistemas de recomendación
+
+- name: Machine Learning Algorithms
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/e8/7cc3d09d3f11e698dfff46d35f2da1/Stanford_Coursera_Logo.png
+  link: https://coursera.org/share/bb79e1be60ff685c2c21acebe31748bf
+  description: Linear Regression, Clasification, Logistic Regression,Artificial, Neural Network, Machine Learning (ML) Algorithms Machine Learning
+
+- name: Introduction to Deep Learning & Neural Networks with Keras
+  image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+  link: https://coursera.org/share/466d42631206e5cdfb3142c1dd5754d1
+  description: Deep Learning, Artificial Neural Network, Artificial Intelligence (AI), Machine Learning, keras
+
+- name: Deep Neural Networks with PyTorch
+  image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+  link: https://coursera.org/share/2943b4d9ee483294774109a177172861
+  description: Desarrollo de modelos de aprendizaje profundo utilizando Pytorch. Fundamentos como la regresión lineal y la regresión logística / softmax. Redes neuronales profundas Feedforward, el papel de las diferentes funciones de activación, normalización y capas de abandono. Redes neuronales convolucionales y el aprendizaje de transferencia. 
+
+- name: Introduction to Computer Vision and Image Processing
+  image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+  link: https://coursera.org/share/0390e089813fe6bb9a40d1f5f3dfc937
+  description: Deep Learning, Opencv, Artificial Intelligence (AI), Image Processing, Computer Vision
+
+- name: Machine Learning with Python
+  image: https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg
+  link: https://coursera.org/share/c7e159040e0122850ba4e361b55dbe63
+  description: Python Libraries, Machine Learning, Regression, Hierarchical Clustering, K-Means Clustering, Clasification Algorithms, Dicision Tree, Randon Forest, K-Nearest Neighbord.
+
+- name: How Google does Machine Learning en Español
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4e/c2f4c0f4bb11e69a33576c875f4294/cloud-twitter-avatar.png
+  link: https://coursera.org/share/346a182d1b6a1bbbf5e9aed22a17bed5
+  description: ¿Qué es el aprendizaje automático y qué tipos de problemas puede solucionar? Google concibe el aprendizaje automático de una forma algo diferente considera que se trata no solo de datos, sino también de lógica. Hablaremos de por qué es útil para los científicos de datos concebirlo así cuando piensan en compilar una canalización de modelos de aprendizaje automático. Luego, analizaremos las cinco fases de la transformación de un posible caso de uso en un recurso que pueda aprovechar la tecnología de aprendizaje automático. También consideramos por qué es importante no omitir ninguna fase. Finalizamos con un reconocimiento de los sesgos que puede amplificar el aprendizaje automático y cómo reconocerlos.
+
+- name: Launching into Machine Learning en Español
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/4e/c2f4c0f4bb11e69a33576c875f4294/cloud-twitter-avatar.png
+  link: https://coursera.org/share/b61a6f5fcad29784c2fd9ac16c4c1aa9
+  description: Identificar por qué el aprendizaje profundo es popular en la actualidad Optimizar y evaluar modelos mediante las funciones de pérdida y las métricas de rendimiento Mitigar problemas comunes que se presentan en el aprendizaje automático Crear conjuntos de datos repetibles y escalables para entrenamiento, evaluación y pruebas.
+
+- name: Los bits y bytes de las redes informáticas
+  image: https://comunidad.iebschool.com/emprendelink/files/2019/05/Blog-post-2-1000x288.png
+  link: https://coursera.org/share/0324c6a71116ecc7bb89a6db19eba0ed
+  description: Describir redes de computadoras en términos de un modelo de cinco capas, ● Comprensión de todos los protocolos estándar relacionados con las comunicaciones TCP/IP, ● Comprensión de las potentes herramientas y técnicas de solución de problemas de red, ● Conocimiento de servicios de red como DNS y DHCP que facilitan el funcionamiento de las redes de computadoras, ● Comprensión de la computación en la nube, el concepto de "Todo como servicio" y el almacenamiento en la nube.
+
+- name: Aspectos básicos de la asistencia técnica
+  image: https://comunidad.iebschool.com/emprendelink/files/2019/05/Blog-post-2-1000x288.png
+  link: https://coursera.org/share/1852537ac22ca5351901c4ec63f91491
+  description: ● Entendedimiento de cómo funciona el sistema binario; ● Ensamblaje de una computadora desde cero; ● Elegir e instalar un sistema operativo en una computadora; ● Comprensión sobre qué es Internet, cómo funciona y el impacto que tiene en el mundo moderno; ● Aprendizaje de cómo se crean las aplicaciones y cómo funcionan en una computadora; ● Uso de metodologías comunes de resolución de problemas y habilidades básicas en un entorno de tecnología de la información.
+
+- name: Basic English I - Elementary
+  image: https://ugc.futurelearn.com/uploads/images/84/6f/846f5573-b6ce-4334-888b-199069d1bee5.svg
+  link: https://www.futurelearn.com/certificates/rbtelld
+  description: Este curso lo ayudó a desarrollar su uso del inglés en una variedad de situaciones cotidianas y fortaleció su confianza al mejorar sus habilidades auditivas. Ha escuchado a personas hablar en varias situaciones diferentes y ha tenido la oportunidad de revisar el idioma a través de una serie de cuestionarios.
+
+- name: Basic English 2 Pre-Intermediate King's College London
+  image: https://ugc.futurelearn.com/uploads/images/84/6f/846f5573-b6ce-4334-888b-199069d1bee5.svg
+  link: https://www.futurelearn.com/certificates/e4rxzfe
+  description: Este curso en línea lo ayudó a demostrar comprensión del idioma que puede ayudarlo a progresar en el camino para estudiar en una universidad. 4 semanas, 4 horas a la semana.
+
+- name: Grammar and Punctuation
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/39/31c7a00bb411e4b2adb7c560fb2da9/UCI_MB_PI_WM_300x300_YellowonBlue.png
+  link: https://coursera.org/share/f235c3fee2d1090208dba90d98028c1a
+  description: Identificar los tiempos verbales correctos para usar. Usar las comas de manera efectiva. Utilizar varios tipos de oraciones diferentes.Escribir de forma más eficaz en inglés.
+
+- name: Write Professional Emails in English
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/a5/b9f3b0ed1911e4b974a91400b6b11f/Yellow-GT-logo-360x360.png
+  link: https://coursera.org/share/a4bfe1e705b13aaad17cde5d16de49cc
+  description: Skills. Professional, Email Writing, Communication, Writing
+
+- name: Perfect Tenses and Modals
+  image: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/39/31c7a00bb411e4b2adb7c560fb2da9/UCI_MB_PI_WM_300x300_YellowonBlue.png
+  link: https://coursera.org/share/0b733d6c0aa4c97e5462d009f4040d1a
+  description: HABILIDADES QUE OBTENIDAS. English Grammar, Grammar Perfect Tenses, Writing.
+
+- name: Instalador de Fibra Óptica
+  image: https://cdn1.capacitateparaelempleo.org/media/icons/logo_inttelmex.png
+  link: https://capacitateparaelempleo.org/verifica/qejnecslt/
+  description: En este curso se aprendendió los diferentes tipos de instalación en planta externa, el funcionamiento de cómo se diseña una red de fibra óptica y ayudarás a incrementar la calidad de las transmisiones de telecomunicaciones.
