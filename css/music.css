@@ -1,0 +1,55 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none
+} */
+/* body{
+    font-family: 'Playfair Display', serif;
+} */
+/* .wrapper{
+    background: rgba(0,0,0,0.3) url(https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+} */
+/* h1{
+    color: #fff;
+    font-weight: 300;
+    font-size: 98px;
+    line-height: 108px;
+    padding: 180px 150px;
+    text-align: center;
+}*/
+/* p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 150px;
+    text-align: center;
+} */
+.bg-music{
+    position: absolute;
+    top: 74%;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+.butn{
+    background-color: transparent;
+    color: #fff;
+    font-size: 78px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    opacity: .3;
+    transition: all linear .2s;
+}
+.butn:hover{
+    opacity: 1;
+}
+.fa-pause-circle-o{
+    display: none;
+}
