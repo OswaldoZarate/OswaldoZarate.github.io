@@ -10,7 +10,7 @@ body {
 #box{
   display: flex;
   position: relative;
-  top: 10px;
+  top: 5px;
   left: 15vw;
 }
 
@@ -637,7 +637,7 @@ body {
 
 .typed-out{
   overflow: hidden;
-  border-right: .15em solid #ff6347;
+  border-right: .25em solid #ff6347;
   white-space: nowrap;
   animation: typing 2.12s steps(20, end) forwards, blinking .8s infinite;
   width: 0;
