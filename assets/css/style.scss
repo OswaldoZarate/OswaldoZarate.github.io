@@ -1,7 +1,7 @@
 ---
 ---
-
 @import "main.scss";
+
 
 #navbar {
     opacity: 0.95;
@@ -37,7 +37,7 @@ a.navbar-item.is-active {
     border-color: grey;
 }
 
-
+/*
 #hero {
     background: rgb(0, 0, 0);
     background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
@@ -61,12 +61,45 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+*/
 .title {
     margin: auto 0.75rem!important;
 }
 .subtitle {
     letter-spacing: 0.25rem;
 }
+
+
+/* ---- Parcicles SWARM ---- */
+
+#particle {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-image: url(/assets/images/aurora6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+    
+    content: "";
+        
+}    
+
+
+
+
+
+
+/* ---- FIN Parcicles SWARM ---- */
+
 
 #about {
     .image {
@@ -84,7 +117,144 @@ a.navbar-item.is-active {
     }
 }
 
+
+#tarjetas {
+
+
+ /* TARJETAS 3D */
+
+ * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #f0f2f1;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_tarjeta {
+    margin: 10px;
+    a {
+        display: inline-block;
+    }
+    &:hover {
+        figure {
+            transform: perspective(600px) rotateY(180deg);
+            -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+            -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+            box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
+
+            -webkit-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.95);
+            -moz-box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.95);
+            box-shadow: 6px 6px 10px 3px rgba(0,0,0,0.95);    
+
+            img {
+                /*filter: blur(10px); */
+                opacity: 0.8;
+            }
+        }
+    }
+}
+figure {
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+    .front {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        transition: all ease .5s;
+        display: block;
+    }
+    .back {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        transition: all ease .5s;
+        position: absolute;
+        top: 0;
+        padding: 20px;
+        color: #fff;
+        transform: perspective(600px) rotateY(180deg);
+        backface-visibility: hidden;
+        overflow: auto;
+
+
+        background: #3A1C71;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
+        .titulo {
+            color: #fff;
+            font-weight: normal;
+            margin-bottom: 20px;
+            font-family: 'roboto', sans-serif;
+            font-size: 24px;
+        }
+        hr {
+            height: 2px;
+            background: #fff;
+            border: none;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+        p {
+            font-family: 'open sans', sans-serif;
+            line-height: 22px;
+            font-size: 14px;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    figure {
+        .back {
+            backface-visibility: visible;
+            transform: perspective(600px) rotateY(0deg);
+        }
+    }
+    .contenedor_tarjeta {
+        &:hover {
+            figure {
+                transform: perspective(600px) rotateY(0deg);
+            }
+        }
+    }
+}
+
+}
+/* HASTA AQUI LAS TARJETAS 3D */
+
+
+
+
+/* FOR THE SECTION SERVICES */
+
+
+
+/* hasta aqui la section SeRVICES */
+
+
+
 #contact {
+
     #contact-button {
         margin: 0.5rem auto;
         display: flex;
@@ -92,17 +262,17 @@ a.navbar-item.is-active {
     }
 
     svg {
-        transition: all 0.15s ease-in-out;
+        transition: all 0.25s ease-in-out;
         margin: auto 0.75vmax;
 
         &:hover {
-            transform: scale(1.10);
+            transform: scale(1.50);
             filter: opacity(0.75);
         }
     }
 
     hr {
-        background-color: black;
+        background-color: rgb(252, 6, 6);
     }
 }
 

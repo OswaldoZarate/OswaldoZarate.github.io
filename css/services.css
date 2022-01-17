@@ -1,0 +1,181 @@
+/* ------ Estilo PArticulas Snow -----*/
+
+#particles-js {
+    position: static;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    z-index: -1;
+    
+}
+
+/* ------ FIN Estilo PArticulas Snow -----*/
+
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+}*/
+
+.services-section {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    box-sizing: border-box;
+    /*background: url(bg.jpg); */ 
+    background:rgb(23, 24, 24);
+    background: transparent;
+    background-size: cover;     /* background-size: cover; */
+    padding: 60px 0;        /* 60px 0 is the height of the header */    
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+/* ------ Estilo Service titulo -----*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 64px;
+    filter: contrast(15);
+    background-color: #07ffa0b6;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+}
+
+.wrapper h1 {
+    position: absolute;
+    left: 50%;      
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: #fff;
+    margin: 0;
+    font-size: 120px;
+    font-weight: 600;
+    text-transform: uppercase;
+    filter: blur(8px);
+    display: block;
+    animation: animate 8s infinite alternate;
+
+}
+
+@keyframes animate{
+    0% {
+        letter-spacing: -80px;
+        filter: blur(8px);
+    }
+
+    50% {
+        
+        filter: blur(8px);
+    }
+
+    100% {
+        letter-spacing: 5px;
+        filter: blur(8px);
+    }
+}
+
+
+/* ------ Fin Service titulo -----*/
+
+
+.section-title {
+    text-align: center;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.border {
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.service-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 25px;
+    border: 3px solid #82ccdd;
+    box-sizing: border-box;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+
+.service-icon i {
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+}
+
+.service-box:hover .service-icon {
+    background: #82ccdd;
+    color: #ddd;
+}
+
+.service-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+.service-desc {
+    font-size: 14px;
+    line-height: 20px;
+       
+}
+
+@media screen and (max-width: 960px){
+    .service-box {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .service-box {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .service-box {
+        max-width: 100%;
+    }
+}

@@ -9,14 +9,15 @@ body {
 }  */
 #box{
   display: flex;
-  position: relative;
-  top: 5px;
-  left: 15vw;
+  position: absolute;   
+  top: 125px;        /*mover con respecto al margen superior */
+  left: 25vw;
+  width: 50vw;
 }
 
 .alpha{
   color: #d4def5;
-  font-size: 45px;
+  font-size: 48px !important; /* !important para que no se vea el tamaño de la fuente */
   font-family: 'Almarai',sans-serif;
   margin: 2px;
 }
